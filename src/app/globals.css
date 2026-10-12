@@ -1,0 +1,89 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-forest-950: #0d1a13;
+  --color-forest-900: #14281e;
+  --color-forest-800: #1c3b2c;
+  --color-forest-700: #254d39;
+  --color-forest-600: #336149;
+  
+  --color-moss-500: #4f7358;
+  --color-moss-400: #678f72;
+  --color-moss-300: #93b59b;
+  --color-moss-100: #e5ede7;
+
+  --color-rain-700: #1b4d63;
+  --color-rain-600: #2c6e8a;
+  --color-rain-500: #3e88a5;
+  --color-rain-100: #eaf3f7;
+  --color-rain-50: #f4f8fa;
+
+  --color-paper-50: #fbf9f6;
+  --color-paper-100: #f6f3ed;
+  --color-paper-200: #ece7dd;
+  --color-paper-300: #ded8cb;
+  --color-paper-border: #e3ddd1;
+
+  --color-charcoal-900: #191f1b;
+  --color-charcoal-800: #262e29;
+  --color-charcoal-700: #39443e;
+  --color-charcoal-600: #55635b;
+  --color-charcoal-500: #73827a;
+  --color-charcoal-400: #9aa8a1;
+
+  --font-serif: var(--font-instrument-serif), "Times New Roman", Times, Georgia, serif;
+  --font-sans: var(--font-plus-jakarta-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root {
+  --background: #fbf9f6;
+  --foreground: #191f1b;
+}
+
+body {
+  background-color: #fbf9f6;
+  color: #191f1b;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for clean UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f6f3ed;
+}
+::-webkit-scrollbar-thumb {
+  background: #ded8cb;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9aa8a1;
+}
+
+/* Print styling for clean evidence reports */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-page-break {
+    page-break-after: always;
+  }
+  .print-card {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+}
