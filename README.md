@@ -4,8 +4,10 @@
 > Built for the **Hacktoberfest x DEV Week 1 “Touch Grass” Challenge**.
 
 [![CI & Build Verification](https://github.com/jyothikacodes/monsoonmap/actions/workflows/ci.yml/badge.svg)](https://github.com/jyothikacodes/monsoonmap/actions/workflows/ci.yml)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjyothikacodes%2Fmonsoonmap)
-[![License: MIT](https://img.shields.io/badge/License-MIT-forestgreen.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-monsoonmap.vercel.app-14281e?style=flat-square&logo=vercel&logoColor=white)](https://monsoonmap.vercel.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-forestgreen.svg?style=flat-square)](LICENSE)
+
+🌐 **Live Deployed Web Application**: [**https://monsoonmap.vercel.app**](https://monsoonmap.vercel.app)
 
 MonsoonMap encourages people to spend time outdoors observing their surroundings and documenting environmental and infrastructure problems—particularly after rainfall.
 

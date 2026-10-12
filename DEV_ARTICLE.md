@@ -31,8 +31,9 @@ Everyday walking residents, neighborhood associations, ward committees, pedestri
 
 ## Demo
 
-- **Local Running URL**: `http://localhost:3005`
+- **Live Deployed Web Application**: [https://monsoonmap.vercel.app](https://monsoonmap.vercel.app)
 - **Full Source Code**: [https://github.com/jyothikacodes/monsoonmap](https://github.com/jyothikacodes/monsoonmap)
+- **Local Dev Endpoint**: `http://localhost:3005`
 
 ### The Core Walkthrough
 
