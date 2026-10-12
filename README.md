@@ -3,6 +3,10 @@
 > **Walk your streets. Expose the problems. Make the evidence count.**  
 > Built for the **Hacktoberfest x DEV Week 1 “Touch Grass” Challenge**.
 
+[![CI & Build Verification](https://github.com/jyothikacodes/monsoonmap/actions/workflows/ci.yml/badge.svg)](https://github.com/jyothikacodes/monsoonmap/actions/workflows/ci.yml)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjyothikacodes%2Fmonsoonmap)
+[![License: MIT](https://img.shields.io/badge/License-MIT-forestgreen.svg)](LICENSE)
+
 MonsoonMap encourages people to spend time outdoors observing their surroundings and documenting environmental and infrastructure problems—particularly after rainfall.
 
 During a short outdoor observation walk, citizens document waterlogging, choked stormwater drains, accumulated runoff litter, and damaged footpaths. MonsoonMap uses an open-weight vision-language model (**Gemma 3 Vision** via Ollama) to turn raw field observations into structured, human-reviewable civic evidence reports.
